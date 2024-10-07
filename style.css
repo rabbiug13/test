@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo-color i img{
+    width: 50px;
+}
+.navbar-brand{
+    margin-left: 50px;
+    color:orange;
+    font-weight: bold;
+}
+#menu-color{
+    background-color: orange;
+}
+.navbar-brand:hover{
+    color: orange;
+}
+#navbar-color{
+    background-color: black;
+}
+.navbar-nav{
+    margin-left: 10px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+#first{
+    border-bottom: 2px solid rgb(7, 7, 6);
+}
+
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+.nav-link:hover{
+    background-color: orange;
+    box-shadow: 0 0 3px orange, 0 0 3px orange, 0 0 3px orange, 0 0 3px orange;
+    color: black;
+}
+.mai-content{
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/14003_Orange-Soy-Marinated-Steak.jpg);
+    background-size: cover;
+    background-position: 73%;
+}
+.content{
+    padding-top: 160px;
+    margin-left: 50px;
+    color: white;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#btn1  button a{
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color:orange;
+    border: none;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+#btn1 button:hover{
+    background-color:orange;
+    text-shadow:0 0 5px orange, 0 0 5px orange, 0 0 5px orange, 0 0, 0 0 5px orange;
+
+    
+}
+
+.card{
+    box-shadow: 0px 0px 5px black;
+    cursor:pointer;
+    transition: transform 0.5s ease;
+    margin: auto;
+}
+
+.best-card .card:hover{
+    transform: translateY(-15px);
+}
+
+.best-card h1{
+    font-weight: bold;
+    color: rgb(184, 197, 3);
+    text-shadow: 2px 1px 5px black;
+}
+
+.best-card p{
+    font-weight: bold;
+    color: black;
+  /*  text-shadow: 2px 1px 5px black;*/
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.card-content h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-content h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-content h5{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-content p{
+    font-weight: bold;
+}
+
+.banner{
+    width: 100%;
+    height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/mvs.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 70%;
+}
+
+.banner h1{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 5px;
+    text-shadow: 2px 1px 5px black;
+}
+.change-content:after{
+    content:'';
+    animation:changetext 10s infinite linear;
+    color: orange;
+}
+
+@keyframes changetext {
+    0%{content:"Breakfast";}
+    15%{content:"Salad";}
+    30%{content:"Crezy Beef";}
+    45%{content:"Rice Bowl";}
+    60%{content:"Chicken";}
+    75%{content:"burger";}
+    90%{content:"Cake";}
+    100%{content:"Juice";}
+}
+    
+
+.banner h2{
+    font-size: 50px;
+    color:orange;
+    font-weight: bold;
+    padding: top 15px;
+    margin-left: 5px;
+}
+
+#btn2 button{
+    width: 200px;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color:orange;
+    border: none;
+}
+
+#btn2 button:hover{
+    background-color:orange;
+    text-shadow:0 0 5px orange, 0 0 5px orange, 0 0 5px orange, 0 0, 0 0 5px orange;
+
+}
+
